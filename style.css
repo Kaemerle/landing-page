@@ -182,6 +182,7 @@ a {
 
 a:hover {
     color: hotpink;
+    
 }
 
 h1 {
@@ -199,11 +200,14 @@ button {
     border: 1px white solid;
     border-radius: 5px;
     padding: 3px 12px;
+    
 }
 
 button:hover{
-    background-color: darkorchid;
-    cursor:pointer;
+    transform: translateY(-4%);
+    background: linear-gradient(rgba(250, 0, 0, 0.7), rgba(107, 39, 0, 0.7));
+    box-shadow: 0 0 0.6em white;
+    cursor: pointer;
 }
 
 .content button {
