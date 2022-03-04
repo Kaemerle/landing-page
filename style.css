@@ -200,6 +200,11 @@ button {
     padding: 3px 12px;
 }
 
+button:hover{
+    background-color: darkorchid;
+    cursor:pointer;
+}
+
 .content button {
     border: 1px #3882f6;
 }
