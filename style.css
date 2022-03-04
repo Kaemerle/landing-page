@@ -181,8 +181,11 @@ a {
 }
 
 a:hover {
-    color: hotpink;
-    
+    color: rgb(252, 0, 126);
+    box-shadow: 0 0 .5em gold;
+    background: rgb(255, 255, 255);
+    transform: translateX(3%);
+    border-radius: 3px;
 }
 
 h1 {
@@ -205,7 +208,7 @@ button {
 
 button:hover{
     transform: translateY(-4%);
-    background: linear-gradient(rgba(250, 0, 0, 0.7), rgba(107, 39, 0, 0.7));
+    background: linear-gradient(rgba(255, 0, 0, 0.7), rgba(151, 55, 0, 0.7));
     box-shadow: 0 0 0.6em white;
     cursor: pointer;
 }
